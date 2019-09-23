@@ -15,4 +15,4 @@ Here's some questions covered in the study:
 <br>
 
 ## MongoDB Compass Community
-    
+MongoDB Compass is a simple GUI that allows users to explore, insert, modify, and delete from your database (i.e. fill CRUD functionality) visually as well as run ad hoc queries. Compass uses inbuilt schema visualization to help the user analyze documents and display rich structues.
