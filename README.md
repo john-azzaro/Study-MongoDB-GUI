@@ -12,4 +12,9 @@ Here's some questions covered in the study:
 <br>
 
 ## What is MongoDB Compass Community?
-MongoDB Compass is a simple GUI that allows users to explore, insert, modify, and delete from your database (i.e. fill CRUD functionality) visually as well as run ad hoc queries. Compass uses inbuilt schema visualization to help the user analyze documents and display rich structues.
+MongoDB Compass is a simple GUI that allows users to explore, insert, modify, and delete from your database (i.e. fill CRUD functionality) visually as well as run ad hoc queries. Compass uses inbuilt schema visualization to help the user analyze documents and display rich structues.  Additionally, Compass offers real time statistics of database operations
+
+<br>
+
+### How do you use Compass?
+To use compass, you need to install MongoDB Compass Community: https://www.mongodb.com/download-center/community.  However, make sure to install Compass AFTER you install MongoDB because some issues can occur that make it a pain to get working correctly.
