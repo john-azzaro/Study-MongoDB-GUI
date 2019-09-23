@@ -34,3 +34,16 @@ other information such as document size, number of indexes, and total index size
     _______________    _________   __________________   ___________________    ____________    ________________    __________
         books            3,950          451.2 B               1.8 MB                1               45.1 KB             
 ```
+
+And inside each each collection are documents, which are essentially key/value pairs.
+```
+    {
+        "_id":"59074c7c057aaffaafb0da64",
+        "Author": Object,                      
+        "genre":"fiction",
+        "cuisine":"Italian",
+        "reviews" Array:
+        "name":"Making Bread the Easy Way",
+        "book_id":"40365784"
+    }
+```
