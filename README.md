@@ -8,6 +8,7 @@ The default interface for MongoDB is a CLI command line which can be difficult a
 Here's some questions covered in the study:
 
 * [What is MongoDB Compass Community?](#What-is-MongoDB-Compass-Community)
+    * [How do you use Compass?](#How-do-you-use-Compass)
 
 <br>
 
