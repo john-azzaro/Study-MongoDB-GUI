@@ -18,3 +18,19 @@ MongoDB Compass is a simple GUI that allows users to explore, insert, modify, an
 
 ### How do you use Compass?
 To use compass, you need to install MongoDB Compass Community: https://www.mongodb.com/download-center/community.  However, make sure to install Compass AFTER you install MongoDB because some issues can occur that make it a pain to get working correctly.
+
+When you open Compass, you will see a list of your databases.  For example, testDB in the example below represents a database that holds *collections* of *documents*.
+```
+    > admin
+    > config
+    > local
+    > testDB
+```
+
+Inside those databases, you can see collections within those databases, how many documents in each collection, and 
+other information such as document size, number of indexes, and total index size. 
+```
+    Collection Name    Documents   Avg. Document Size   Total Document Size    Num. Indexes    Total Index Size    Properties
+    _______________    _________   __________________   ___________________    ____________    ________________    __________
+        books            3,950          451.2 B               1.8 MB                1               45.1 KB             
+```
