@@ -18,7 +18,7 @@ MongoDB Compass is a simple GUI that allows users to explore, insert, modify, an
 <br>
 
 ### How do you use Compass?
-To use compass, you need to install MongoDB Compass Community: https://www.mongodb.com/download-center/community.  However, make sure to install Compass AFTER you install MongoDB because some issues can occur that make it a pain to get working correctly.
+First, download MongoDB Compass Community: https://www.mongodb.com/download-center/community.  However, make sure to install Compass AFTER you install MongoDB because some issues can occur that make it a pain to get working correctly.
 
 When you open Compass, you will see a list of your databases.  For example, testDB in the example below represents a database that holds *collections* of *documents*.
 ```
