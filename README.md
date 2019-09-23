@@ -60,3 +60,21 @@ With functionality similar to compass, Robo 3T also lests use work more directly
 <br>
 
 ### How do you use Robo 3T?
+After installing Robo 3T, you will need to connect with your database which will then be displayed on a sidebar to the left of your window.
+```
+    > New Connection
+        > System
+        > config
+        > testDB
+```
+
+And to give you an example of what you would see if you had a database to look through, when you click on a database such as "testDB", you will see a folder named "collections" which will
+expand in the right window with all the documents associated with that collection.  Be sure to note that at the top of the right window you will see the query used to retrieve the documents
+```
+    (1) ObjectId("563097824igf876e42)
+    (2) ObjectId("ghfe65678fhkjlhf7")
+    (3) ObjectId("57689hkjbhjkhnhj3")
+    ...
+    ...
+    ...
+```
