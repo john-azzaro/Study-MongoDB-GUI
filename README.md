@@ -9,6 +9,8 @@ Here's some questions covered in the study:
 
 * [What is MongoDB Compass Community?](#What-is-MongoDB-Compass-Community)
     * [How do you use Compass?](#How-do-you-use-Compass)
+* [What is Robo 3T?](#What-is-Robo-3T)
+    * [How do you use Robo 3T?](#How-do-you-use-Robo-3T)
 
 <br>
 
@@ -48,3 +50,13 @@ And inside each each collection are documents, which are essentially key/value p
         "book_id":"40365784"
     }
 ```
+
+<br>
+
+## What is Robo 3T?
+With functionality similar to compass, Robo 3T also lests use work more directly with queries and documents.  However, Robo 3T is one of the few GUI management tools available that embeds the orginal MongoDB shell, uses minimal machines resources, as well as having all operations performed with MongoDB asynchronously.
+
+
+<br>
+
+### How do you use Robo 3T?
