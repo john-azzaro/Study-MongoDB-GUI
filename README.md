@@ -69,7 +69,7 @@ After installing Robo 3T, you will need to connect with your database which will
 ```
 
 And to give you an example of what you would see if you had a database to look through, when you click on a database such as "testDB", you will see a folder named "collections" which will
-expand in the right window with all the documents associated with that collection.  Be sure to note that at the top of the right window you will see the query used to retrieve the documents
+expand in the right window with all the documents associated with that collection.  
 ```
     (1) ObjectId("563097824igf876e42)
     (2) ObjectId("ghfe65678fhkjlhf7")
@@ -77,4 +77,8 @@ expand in the right window with all the documents associated with that collectio
     ...
     ...
     ...
+```
+Be sure to note that at the top of the right window you will see the query used to retrieve the documents.  This line can be edited to make your query function how you want.
+```
+    db.getCollection('myCollection').find({})
 ```
